@@ -12,7 +12,7 @@ void readsudoku()
 {
     int i,j,k;
     char line[25];
-    FILE *fin=fopen("input6.txt","r");
+    FILE *fin=fopen("input.txt","r");
     for(i=0;i<9;++i)
     {
         fgets(line,25,fin);
